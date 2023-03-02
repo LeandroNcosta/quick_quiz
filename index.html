@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>
+      Quiz | Você consegue acertar qual é o filme pelo título em português de
+      Portugal?
+    </title>
+  </head>
+  <body>
+    <div class="intro py-3 bg-primary text-center">
+      <div class="container">
+        <h2 class="text-light display-3 my-4">Quiz</h2>
+      </div>
+    </div>
+
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p>
+          Você acertou
+          <span class="text-primary display-4 p-3">0%</span>
+          do quiz!
+        </p>
+      </div>
+    </div>
+
+    <div class="quiz py-4 bg-dark">
+      <div class="container">
+        <h2 class="my-5 text-white">
+          Você consegue acertar essas perguntas sobre a copa do mundo FIFA?
+        </h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. A seleção campeã de 1998 foi:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="A" />
+                França
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="B" />
+                Espanha
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="C" />
+                Brasil
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="D" />
+                Itália
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. A primeira seleção campeã da copa do mundo FIFA:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="A" />
+                Brasil
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="B" />
+                Uruguai
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="C" />
+                Alemanha
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="D" />
+                Espanha
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. "Celeste" é um apelido adotada pela selecão:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="A" />
+                Uruguai
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="B" />
+                Argentina
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="C" />
+                Paraguai
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="D" />
+                Chile
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. Seleções que possui no mínimo um título conquistado:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="A" />
+                Itália, Brasil, França, Espanha, Holanda, Argentina, Uruguai,
+                Bélgica e México
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="B" />
+                Itália, Brasil, França, Espanha, Holanda, Argentina, Uruguai e
+                Bélgica
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="C" />
+                Itália, Brasil, França, Espanha, Argentina, Uruguai e Bélgica
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="D" />
+                Uruguai, Italia, Alemanha, Brasil, Inglaterra, Argentina,
+                Espanha e França
+              </label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn bg-primary text-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
